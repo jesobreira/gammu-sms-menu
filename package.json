@@ -1,0 +1,32 @@
+{
+  "name": "gammu-sms-menu",
+  "version": "1.0.0",
+  "description": "A lib to create interactive SMS-based menus and applications using Gammu and NodeJS",
+  "main": "lib.js",
+  "scripts": {
+    "test": "node tests/example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesobreira/gammu-sms-menu.git"
+  },
+  "keywords": [
+    "sms",
+    "application",
+    "menu",
+    "telephone",
+    "cellphone",
+    "center"
+  ],
+  "author": "Jefrey S. <jefrey@forteras.tech>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jesobreira/gammu-sms-menu/issues"
+  },
+  "homepage": "https://github.com/jesobreira/gammu-sms-menu#readme",
+  "dependencies": {
+    "moment": "^2.20.1",
+    "node-gammu-json": "0.0.2",
+    "wildcard": "^1.1.2"
+  }
+}
