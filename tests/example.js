@@ -1,4 +1,5 @@
-const smsMenu = require('../lib.js');
+const smsMenu = require('../lib.js'); // don't use this, this is just a test!
+// const smsMenu = require('gammu-sms-menu'); // use this instead
 
 smsMenu.on('session', function(session) {
 	var user_start_message = session.lastMessage;
